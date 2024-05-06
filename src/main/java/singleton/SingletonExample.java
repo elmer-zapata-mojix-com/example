@@ -1,7 +1,7 @@
 package singleton;
 
 public class SingletonExample {
-    public static SingletonExample client = null;
+    private static SingletonExample client = null;
     String property1;
     private SingletonExample() {
         property1 = "Hello, I am";
